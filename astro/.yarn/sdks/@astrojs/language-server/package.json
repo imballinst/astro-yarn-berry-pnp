@@ -1,0 +1,6 @@
+{
+  "name": "@astrojs/language-server",
+  "version": "2.3.3-sdk",
+  "main": "dist/index.js",
+  "type": "commonjs"
+}
