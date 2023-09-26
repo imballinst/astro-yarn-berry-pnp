@@ -1,8 +1,0 @@
-{
-  "search.exclude": {
-    "**/.yarn": true,
-    "**/.pnp.*": true
-  },
-  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
-  "astro.language-server.ls-path": ".yarn/sdks/@astrojs/language-server/bin/nodeServer.js"
-}
