@@ -1,4 +1,4 @@
 {
   "prettier.prettierPath": "astro/.yarn/sdks/prettier",
-  "astro.language-server.ls-path": "astro/.yarn/sdks/@astrojs/language-server/bin/nodeServer.js"
+  "astro.language-server.ls-path": ""
 }
