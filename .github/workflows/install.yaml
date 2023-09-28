@@ -3,7 +3,7 @@ name: publish-swagger
 on:
   push:
     branches:
-      - '*'
+      - "*"
 
 jobs:
   publish-swagger:
@@ -14,6 +14,9 @@ jobs:
         with:
           access_token: ${{ github.token }}
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: install
         working-directory: ./
-        run: yarn
+        run: pnpm install
